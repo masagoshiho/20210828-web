@@ -1,0 +1,84 @@
+.coach {
+  display: flex;
+  position: absolute;
+  left: 50%;
+}
+
+.cosme {
+  font-family: 'Amatic SC';
+  font-size: 40px;
+  font-weight: bold;
+  color: #55bbbb;
+  list-style: none;
+  margin: 0 10px;
+}
+
+main {
+  display: flex;
+  position: relative;
+  top: 50%;
+}
+
+.text {
+  font-family: 'Shippori Mincho';
+  font-size: 40px;
+}
+
+.text-wrap {
+  font-family: 'Shippori Mincho';
+  font-size: 64px;
+  color: #55bbbb;
+}
+
+.make {
+  font-family: 'Shippori Mincho';
+  font-size: 64px;
+  font-weight: bold;
+}
+ 
+
+.photo {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 80%;
+  left: 30%;
+  padding: 0%;
+}
+
+
+.circle {
+  font-family: 'Shippori Mincho';
+  text-align: center;
+  margin: 300px 300px;
+  position: absolute;
+ width: 70px;
+ height: 70px;
+ right: 70%;
+ background: #FF4384; 
+ border-radius: 50%;
+ color: white;
+}
+
+.news {
+  font-family: 'Shippori Mincho';
+  font-size: 14px;
+  color: #55bbbb;
+  position: absolute;
+  margin: 250px 300px;
+  right: 60%;
+}
+
+.news-wrap {
+  font-family: 'Shippori Mincho';
+  color: #FF4384; 
+  font-size: 14px;
+  position: absolute;
+  margin: 300px 300px;
+}
+
+.now {
+ font-family: 'Shippori Mincho';
+  color: #FF4384;
+  font-size: 24px; 
+}
