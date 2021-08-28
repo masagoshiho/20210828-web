@@ -36,10 +36,6 @@ main {
   font-weight: bold;
 }
  
-div {
-  display: flex;
-  position: relative;
-}
 
 .photo {
   width: 50%;
@@ -78,11 +74,29 @@ div {
   color: #FF4384; 
   font-size: 14px;
   position: absolute;
-  margin: 300px 300px;
+  margin: 300px -300px;
 }
 
 .now {
  font-family: 'Shippori Mincho';
   color: #FF4384;
   font-size: 24px; 
+  position: absolute;
+  top: 50px;
+  left: -100px;
+}
+
+.btn {
+  width: 300px;
+  padding: 10px 0;
+  color: #fff;
+  border-radius: 30px;
+  background-color: #FF4384;
+  text-align: center;
+  box-shadow: 0 5px 0 rgba(#FF4384);
+  margin: 100px auto 0;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
