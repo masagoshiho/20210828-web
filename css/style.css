@@ -36,6 +36,10 @@ main {
   font-weight: bold;
 }
  
+div {
+  display: flex;
+  position: relative;
+}
 
 .photo {
   width: 50%;
